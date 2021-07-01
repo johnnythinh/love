@@ -1,0 +1,85 @@
+. nội dung {
+    chức vụ : thân nhân;
+    chỉ số z :  3 ;
+  }
+  # không {
+    vị trí : tuyệt đối;
+    display : inline-block;
+    trái :  35 % ;
+    đầu :  40 vh ;
+    -webkit-chuyển tiếp : dễ dàng hết 0,1 giây ;
+  }
+  # có {
+    vị trí : tuyệt đối;
+    display : inline-block;
+    trái :  70 % ;
+    đầu :  40 vh ;
+    -webkit-chuyển tiếp : dễ dàng hết 0,3 giây ;
+  }
+# bg {
+  vị trí : cố định;
+  đầu :  0 ;
+  đúng :  0 ;
+  đáy :  0 ;
+  trái :  0 ;
+  độ mờ :  .8 ;
+  / * chiều cao: 100vh; * /
+  z-index :  0 ;
+  background-repeat : không lặp lại;
+  background-image : url (.. / img / puung3.jpg);
+  background-size : bìa;
+  nền-vị trí :  50 % ;
+  -webkit-filter :  mờ ( 4 px );
+}
+. swal2-title , . swal2-content {
+  màu sắc : xám ! quan trọng ;
+}
+. swal2-popup {
+  border-radius :  15 px  ! important ;
+}
+
+tiêu đề  h2 {
+  font-family :  ' iCiel Pacifico' ;
+  font-family :  'Pacifico' ;
+  kích thước phông chữ :  80 px ;
+  text-align : center;
+	margin-bottom :  30 px ;
+}
+tiêu đề  h4 {
+  font-family :  ' iCiel Pacifico' ;
+  font-family :  'Pacifico' ;
+  text-align : center;
+}
+
+@media  only screen and ( max-width :  500 px ) {
+  tiêu đề  h2 {
+    font-family :  ' iCiel Pacifico' ;
+    font-family :  'Pacifico' ;
+    kích thước phông chữ :  45 px ;
+    text-align : center;
+    margin-bottom :  30 px ;
+  }
+  tiêu đề  h4 {
+    font-family :  ' iCiel Pacifico' ;
+    font-family :  'Pacifico' ;
+    text-align : center;
+    đệm :  15 px ;
+  }
+  # không {
+    vị trí : tuyệt đối;
+    display : inline-block;
+    trái :  7 % ;
+    đầu :  40 vh ;
+    kích thước phông chữ :  14 px ;
+    đệm :  3 px ;
+    -webkit-chuyển tiếp : dễ dàng hết 0,1 giây ;
+  }
+  # có {
+    vị trí : tuyệt đối;
+    display : inline-block;
+    trái :  58 % ;
+    đầu :  40 vh ;
+    kích thước phông chữ :  14 px ;
+    đệm :  3 px ;
+    -webkit-chuyển tiếp : dễ dàng hết 0,3 giây ;
+  }
